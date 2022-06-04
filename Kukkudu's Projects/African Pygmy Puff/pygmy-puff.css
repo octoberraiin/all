@@ -1,0 +1,48 @@
+* {
+  text-align: left;
+  margin: 0.2rem;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  color: white;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.image1 {
+  width: 500px;
+  display: inline-block;
+}
+
+@media (max-width: 500px) {
+  * {
+    text-align: center;
+  }
+}
+
+.paragraph-style {
+  font-family: "Poppins", sans-serif;
+}
+
+ol {
+  display: inline-block;
+}
+
+label {
+    font-size: 30px;
+}
+
+.nav {
+    background-color: aqua;
+    padding: 1rem;
+}
